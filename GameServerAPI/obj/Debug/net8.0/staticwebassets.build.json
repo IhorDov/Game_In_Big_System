@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dSFo30in6Ae9NHJZMfmh5REVicytxkELpuEyaT8vhCc=",
+  "Source": "GameServerAPI",
+  "BasePath": "_content/GameServerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

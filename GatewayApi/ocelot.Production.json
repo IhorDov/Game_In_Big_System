@@ -1,0 +1,23 @@
+﻿{
+
+  "Routes": [
+    //"GameServerAPI": "https://localhost:10003/api/PlayerRegisterGame/server-info"
+    {
+      "DownstreamPathTemplate": "/api/PlayerRegisterGame/server-info",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "gameserviceapi.azurewebsites.net" //It is not used in this example
+        }
+      ],
+      "UpstreamPathTemplate": "/api/api/PlayerRegisterGame/server-info",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://gamegateway.azurewebsites.net" //It is not used in this example
+  }
+}
